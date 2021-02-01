@@ -1,0 +1,42 @@
+/* .navbar-nav.navbar-center { 
+    position:absolute; 
+    left:50%; 
+    transform:translatex(-50%); 
+}  */
+
+.block{
+    position: absolute;
+    background-color: white;
+    text-align:center;
+    top:70%;
+    width:93%;
+    padding:30px;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.card-body a{
+    text-decoration: none ;
+    color: black;
+}
+
+.card-body a:hover{
+    color:brown;
+}
+
+.design{
+    background-color: #FFE1FB;
+    text-align: center;
+    
+}
+
+.myform{
+    
+    padding:50px;
+    background-color:#F25937;
+    color:white;
+
+}

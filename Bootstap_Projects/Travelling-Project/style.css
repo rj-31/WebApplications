@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size:62.5%;
+}
+
+h1{
+    font-size:2.6rem;
+}
+
+@media screen and (max-width:520px){
+    html{
+        font-size: 45%;
+    }
+
+    .main-head{
+        min-height: 10vh;
+        z-index: 1;
+    }
+
+
+    nav{
+        text-align:center;
+        display: flex;
+        justify-content: center;
+    }
+
+    #logo
+    {
+        padding: 1rem;
+    }
+}
+
+
+
+
+
+
+/* -------------Nav section with banner -------*/
+
+.main-head{
+    background-color: #131c27;
+    color:white;
+   position: fixed;
+    width:100% ;
+    z-index: 10;
+    }
+
+
+nav{
+    
+    display:flex;
+     min-height: 10vh;
+     width: 90%;
+     margin:auto;
+    padding:2rem;
+     align-items: center;
+     flex-wrap: wrap;
+    
+
+}
+
+.nav-list-container{
+    display: flex;
+     justify-content: right;
+     align-items: center;
+     flex: 1 1 40rem;
+     list-style: none;
+   
+}
+
+#logo{
+    flex: 1 1 40rem;
+    
+}
+
+nav li a{
+    color:white;
+    text-decoration: none;
+    margin:2rem;
+    font-size: 1.5rem;
+  
+}
+
+.banner{
+    min-height: 100vh;
+    background: linear-gradient(to top, rgba(0,0,0,0.5),transparent),
+    url('banner2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner h2{
+    font-size: 5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 3rem;
+    letter-spacing: 1.5rem;
+    text-shadow: 2 3 3rem black;  
+
+    position: relative;
+    top:-3rem;
+    
+}
+
+.banner h3{
+    font-size:2rem;
+    margin-bottom: 2rem;
+    letter-spacing: .3rem;
+}
+
+.banner button{
+    padding: .8rem 2.5rem;
+    background-color: white;
+    border:none;
+    outline: none;
+    font-size: 1.7rem;
+    font-weight:500;
+    color: rgb(48, 47, 47);
+}
+
+.banner button:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+/* ---------- Nav section with banner--------- */
+
+    
+
+
+
+
+
+
+/* ---------------Locations------------------- */
+
+#locations{
+    min-height:100vh;
+    background:linear-gradient(to top, rgba(0,0,0,0.2),transparent),
+     url('locations.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    align-items: center;
+    
+}
+
+.locations-head{
+    width:90%;
+    margin: auto;
+}
+
+.locations-head h2{
+    font-size: 4.5rem;
+    color: white;
+    font-weight: 300;
+    text-shadow: 0 0 10px black;
+    padding-bottom:1rem;
+    /* background-color: rgb(65, 185, 206); */
+    position: relative;
+    top:-9rem;
+    letter-spacing:.5rem;
+    text-decoration: underline;
+}
+
+.locations-head h3{
+    font-size: 2rem;
+    color: white;
+    letter-spacing:.1rem;
+    font-weight:200;
+    position: relative;
+    top:-8rem;
+    text-shadow: 0 0 10px black;
+}
+/* ---------------Locations------------------- */
+
+
+
+
+
+
+
+
+/* -------------------Benefits section----------- */
+
+.benefits-header{
+    background: #343c44;
+    padding:5rem;
+    min-height: 30vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+
+.benefits-header h2{
+    font-size: 3rem;
+    letter-spacing: .5rem;
+    font-weight: 500;
+    text-shadow: 0 0 10px black;
+}
+
+.benefits-header h3{
+    font-size: 2rem;
+    font-weight: 100;
+    color: white;
+    letter-spacing:.1rem;
+    text-shadow: 0 0 10px black;
+    padding:1rem;
+}
+
+.cards-container{
+    width:90%;
+    margin:auto;
+    display:flex;
+    min-height: 70vh;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+.card{
+    flex:1 1 25rem;
+    min-height: 40vh;
+    margin:3rem 5rem;
+    /* background-color: blue; */
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1),
+    0px 20px 20px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+.card img{
+    max-width:20%;
+    margin:2rem;
+}
+
+.card-img{
+    background: #343c44;
+    padding :2rem;
+}
+
+.card h4{
+    font-size: 2rem;
+    padding:1rem;
+}
+
+.card h3{
+    padding:1rem;
+    font-size: 2rem;
+    font-weight: 100;
+}
+/* -------------------Benefits section----------- */
+
+
+
+
+#contacts{
+    min-height: 100vh;
+    background: linear-gradient(to top, rgba(0,0,0,0.2),transparent),
+    url('contact3.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.form-container{
+    background:rgba(19,28,39,0.9);
+    color:white;
+    min-width:40%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:2rem 4rem;
+    flex-wrap: wrap;
+    margin-top:10rem;
+    border-radius: 20px;
+   
+
+}
+
+/* .form-container{
+    width:100%;
+} */
+
+.form-header{
+    padding:4rem;
+    text-align: center;
+}
+
+.form-container h2{
+    font-size: 4rem;
+    letter-spacing: .5rem;
+    font-weight: 500;
+    /* padding:2rem; */
+    text-shadow: 0 0 10px black;
+    /* box-sizing: border-box;
+    position: relative;
+    bottom:2rem;
+    left:1rem; */
+}
+
+.form-name,.form-email{
+    padding:3rem;
+    text-align: center;
+}
+
+.form-container label{
+    margin:0rem 3rem;
+    font-size: 2rem;
+}
+
+.form-container input{
+    padding: 1rem 2rem;
+}
+
+.form-container button{
+    width:100%;
+    padding:1rem;
+    position: relative;
+    left:1rem;
+    margin:2rem;
+}
+
+
+.form-container button:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+footer{
+    color:white;
+    background-color: #131c27;
+  
+    font-size:2rem;
+}
+
+.footer-container {
+    display: flex;
+    padding:.2rem;
+    width:90%;
+    margin:auto;
+    align-items: center;
+    min-height:10vh;
+    flex-wrap: wrap;
+}
+
+footer h5{
+    flex:1 1 40rem;
+    font-weight: 10;
+    opacity: .6px;
+}
+
+
+footer ul{
+    display:flex;
+    list-style: none;
+    flex:1 1 40rem;
+    justify-content: space-evenly;
+  
+    margin-right: 3rem;
+}
+
+footer img{
+    height:2rem;
+    /* background-color: #fff; */
+    border:none;
+    color:white
+}
+
+
+footer img:hover{
+    cursor: pointer;
+    fill-rule: white;
+    /* outline: none; */
+     background-color: #fff;
+}

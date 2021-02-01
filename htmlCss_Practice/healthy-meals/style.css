@@ -1,0 +1,329 @@
+body{
+    margin:0;
+}
+
+/* section{
+    padding: 80px 0;
+} */
+
+.header-style{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(images/header.jpg);
+    background-size:cover;
+    height:100vh;
+    background-attachment: fixed;
+}
+
+.heading-style{
+    margin:0;
+    color:rgba(255, 255, 255, 0.788);
+   
+    /* color:rgba(36, 30, 30, 0.432); */
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-65%,-50%);
+    
+}
+
+
+
+.logo{
+    height:50px;
+    width:auto;
+}
+
+.nav-additional{
+    justify-content: flex-end;
+    color:white;
+    text-transform: uppercase;
+   
+
+}
+
+.nav-link{
+    margin-left:40px !important;
+    color:white !important;
+}
+
+.nav-additional li a:hover{
+    border-bottom:2px solid #e67e22;
+}
+
+.header-style h1{
+  
+    font-weight: 360;
+    text-transform: uppercase;
+    letter-spacing: 0.5;
+}
+
+.btn-design, input[type=submit]{
+    padding:10px,30px;
+    background-color:#e67e22 ;
+    border-radius:200px;
+    border:2px solid #d35400;
+    color:white;
+}
+
+.btn-design:hover{
+    background-color:#d35400;
+}
+
+.btn-design2{
+    border:1px solid #d35400;
+    padding:10px,30px;
+    border-radius:200px;
+    color:#d35400;
+}
+
+.btn-design2:hover{
+    background-color:#d35400;
+    
+}
+
+
+/*******************features*****************/
+
+.section-heading{
+    text-align: center;
+    margin: 40px;
+    font-weight:380;
+    word-spacing:4px;
+    text-transform:uppercase;
+    
+}
+
+.section-heading:after{
+    content:" ";
+    display:block;
+    height:2px;
+    background-color: #e67e22;
+    width:100px;
+    margin:auto;
+    margin-top:20px;
+    
+}
+
+.long-copy{
+    line-height:145%;
+    width:70%;
+    margin-left:15%;
+}
+
+.col-sm{
+    padding: 3% !important;
+}
+
+h3{
+    font-weight:300;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.features ion-icon{
+    font-size: 400%;
+    display:block;
+    color: #e67e22;
+    margin-bottom: 10px;
+    
+}
+
+/*******************Meals*****************/
+.box{
+    width:25% !important;
+    overflow:hidden;
+    background-color:#000;
+}
+
+.box img{
+    opacity:0.7;
+    width:100% !important;
+    height: 270px !important;
+    padding:0 !important;
+    transform:scale(1.2);
+    transition:transform 0.5s, opacity 0.5s;
+}
+
+.box img:hover{
+    opacity: 1;
+    transform:scale(1.13);
+}
+
+.no-space{
+    padding-top:0 !important;
+}
+
+
+/******************How it works*****************/
+
+.list-style{
+    padding: 40px;
+    margin-top:10%;
+    font-size:150%;
+    /* line-height: 40px; */
+    background-color: aliceblue;
+    overflow:hidden;
+}
+
+
+
+/* ******************* */
+
+.img-style{
+    width:100%;
+    height:auto;
+    margin-bottom:15px !important;
+}
+
+.cities{
+    margin-bottom: 40px;
+    justify-content: space-evenly;
+}
+
+
+
+/* ******************* */
+
+.testimonials{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/testimonial.jpg);
+    background-size:cover;
+    height:95vh;
+    color:white;
+    background-attachment: fixed;
+    /* margin-bottom: 10%; */
+}
+
+blockquote{
+    font-size:200%;
+    line-height: 145%;
+    font-weight: 300;
+    letter-spacing:3%;
+    word-spacing: 2%;
+    /* padding:2%; */
+    position: relative;
+}
+
+blockquote img{
+  
+    height:50%;
+    border-radius:50%;
+    margin-right:10px;
+    border: 5px solid #e67e22;
+}
+
+.testimonials h2{
+    padding:7%;
+    font-size:300%;
+    font-weight: 370;;
+}
+
+cite{
+    font-size:90%;
+    margin-top:25px;
+    display:block;
+
+}
+
+blockquote:before{
+    content:"\0022";
+    font-style:italic;
+    font-size:300%;
+    display:block;
+    position: absolute;
+    top:-10px;
+    left:-30px;
+    
+    
+}
+
+
+/* ******************plans********************* */
+
+.plans{
+    background-color: #f4f4f4;
+    padding:5%;
+}
+
+.plan-box{
+    background-color: #fff;
+    border-radius: 5px;
+    width:90%;
+    margin:50%;
+   width:100%;
+    padding:20px;
+    box-shadow:0 2px 2px #efefef;
+  
+}
+
+.plan-box div{
+    /* padding:15px; */
+    border-bottom:1px solid #e8e8e8;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+
+.plan-box div:first-child{
+    background-color: #fcfcfc;
+}
+
+.plan-box div:last-child{
+    text-align:center;
+    border:0;
+}
+
+.plan-box ul li{
+    padding:5px 0;
+
+}
+
+.plan-price{
+    font-size:300%;
+    margin-bottom:10px;
+    font-weight:200;
+    color: #d35400;
+}
+
+.plan-price span{
+    font-size:30%;
+    font-weight:400;
+   
+}
+
+.plan-price-meal{
+    font-size:80%;
+
+}
+
+
+.plans h2{
+    padding:2%;
+    font-size:300%;
+    font-weight: 370;;
+}
+
+
+
+
+/* ******************Contact Us********************* */
+
+
+.contact-form{
+    width:60%;
+    margin:0 auto;
+}
+
+input[type=text],input[type=email],select,textarea{
+
+    width:100%;
+    padding:7px;
+    border-radius: 3px;
+    border: 1px solid rgb(238, 228, 228);
+}
+
+input[type=checkbox]{
+    margin:10px 5px 10px 0;
+}
+
+*:focus{
+    outline:none;
+}
